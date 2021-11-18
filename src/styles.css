@@ -3,17 +3,17 @@
     --color-black: rgb(0, 0, 0);
     --color-white: rgb(255, 255, 255);
     --color-violet: rgb(86, 41, 128);
-    --font-size-1: 1rem;
-    --font-size-2: 1.2rem;
-    --font-size-3: 1.8rem;
+    --color-light-grey: rgb(238, 238, 238);
+    --color-gray: rgb(118, 118, 118);
     --shadow-1: rgb(0 0 0 / 35%) 0px 8px 24px;
     --shadow-2: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --shadow-3: rgba(0, 0, 0, 0);
     --border-radius-1: .25rem;
     --border-radius-2: .5rem;
     --font-size-1: 1rem;
     --font-size-2: 1.2rem;
     --font-size-3: 1.8rem;
-    --font-family-1: 'Teko', sans-serif;
+    --font-family-1: 'Shippori Antique', sans-serif;
     --font-family-2: 'Petemoss', cursive;
 }
 
@@ -21,8 +21,8 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--color-black);
-    color: var(--color-white);
+    background-color: var(--color-white);
+    color: var(--color-black);
 }
 
 input,

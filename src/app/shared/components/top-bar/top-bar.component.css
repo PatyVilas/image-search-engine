@@ -1,4 +1,41 @@
-.new-button {
-    background-color: red;
-    size: 5rem;
+.top-bar-container {
+    margin: 0;
+    display: inline-flex;
+}
+
+.logo {
+    margin: 1rem;
+    max-width: 32px;
+}
+
+.unsplash-title {
+    margin: .5rem 0 0;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.top-bar-title {
+    margin: 0;
+    padding: 0;
+    max-width: 40px;
+}
+
+.search {
+    margin: 1rem;
+    min-width: 1000px;
+    max-height: 40px;
+    border: 1px solid var(--color-white);
+    border-radius: 24px;
+    background-color: var(--color-light-grey);
+}
+
+.search:hover {
+    border: 1px solid var(--shadow-3);
+}
+
+.top-bar-button {
+    background-color: var(--color-white);
+    border: none;
+    font-size: var(--font-size-1);
+    color: var(--color-gray);
 }
