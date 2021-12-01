@@ -1,0 +1,14 @@
+.photo-container {
+    max-width: 300px;
+    margin: 1rem;
+    text-align: center;
+    border-radius: var(--border-radius-2);
+    box-shadow: var(--shadow-1);
+}
+
+.photo-img {
+    width: 250px;
+    max-width: calc(90%);
+    max-height: 200px;
+    border-radius: var(--border-radius-1);
+}

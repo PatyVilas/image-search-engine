@@ -1,0 +1,10 @@
+<div class="photo-container">
+    <h2>{{photo.id}}</h2>
+    <span>
+        <p>💗 {{photo.likes}}</p>
+        <p>{{photo.user.username}}</p>
+    </span>
+
+    <img src={{photo.urls.full}} alt={{photo.description}} class="photo-img">
+    <p>{{photo.created_at | date}}</p>
+</div>

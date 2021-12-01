@@ -1,0 +1,8 @@
+{
+    "/src/app/*": {
+        "target": "https://api.unsplash.com/",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    }
+}
