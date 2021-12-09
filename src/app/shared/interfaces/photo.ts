@@ -1,8 +1,11 @@
+import { User } from "./user"
+
 export interface Photo {
     id: string,
     created_at: string,
     description: string,
+    alt_description: string,
     likes: number,
-    user: {id: string, username: string },
+    user: User,
     urls: {full: string, regular: string}
 }

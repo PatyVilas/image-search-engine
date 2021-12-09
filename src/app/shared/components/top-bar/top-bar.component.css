@@ -22,7 +22,7 @@
 
 .search {
     margin: 1rem;
-    min-width: 1000px;
+    width: 70rem;
     max-height: 40px;
     border: 1px solid var(--color-white);
     border-radius: 24px;
@@ -38,4 +38,10 @@
     border: none;
     font-size: var(--font-size-1);
     color: var(--color-gray);
+}
+
+@media (max-width: 900px) {
+    .search {
+        width: 30rem;
+    }
 }

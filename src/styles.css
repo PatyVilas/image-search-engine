@@ -5,6 +5,8 @@
     --color-violet: rgb(86, 41, 128);
     --color-light-grey: rgb(238, 238, 238);
     --color-gray: rgb(118, 118, 118);
+    --color-gray-shadow: rgba(94, 94, 104, 0.2);
+    --color-red: rgb(231, 6, 6);
     --shadow-1: rgb(0 0 0 / 35%) 0px 8px 24px;
     --shadow-2: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     --shadow-3: rgba(0, 0, 0, 0);

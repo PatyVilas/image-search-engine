@@ -14,12 +14,14 @@ export class PhotoComponent implements OnInit {
   public photo: Photo;
 
   constructor() {
+    
     this.photo = {
       id: '',
       created_at: '',
       description: '',
+      alt_description: '',
       likes: 1,
-      user: {id:'', username: ''},
+      user: {id:'', username: '', name: '', profile_image: {small: '', medium: '', large: ''}},
       urls: { full: '', regular: '' }
     }
   }
@@ -28,6 +30,5 @@ export class PhotoComponent implements OnInit {
     console.log(this.photo);
     
   }
-
   
 }

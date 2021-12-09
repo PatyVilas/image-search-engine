@@ -1,10 +1,16 @@
 <div class="photo-container">
-    <h2>{{photo.id}}</h2>
-    <span>
-        <p>💗 {{photo.likes}}</p>
-        <p>{{photo.user.username}}</p>
-    </span>
+    <div class="photo-card">
+        <img src={{photo.urls.full}} alt={{photo.description}} class="photo-img">
+        <div>
+            <span class="photo-likes">
+            <img src="../../../../../../assets/images/like.png" alt="likes" class="photo-icon">
+            <span>{{photo.likes}}</span>
+            </span>
+            <span class="photo-user-info">
+            <img src={{photo.user.profile_image.small}} alt="photo-user" class="user-photo">
+            <span>{{photo.user.name}}</span>
+            </span>
+        </div>
+    </div>
 
-    <img src={{photo.urls.full}} alt={{photo.description}} class="photo-img">
-    <p>{{photo.created_at | date}}</p>
 </div>
